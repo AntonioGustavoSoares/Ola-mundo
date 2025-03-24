@@ -1,4 +1,4 @@
 # Olá, mundo! 
- Primeiro repositório do Curso de Git e Github
+ Meu **Primeiro** repositório do Curso de *Git e Github*
  
- Versão HTML (README V1.4)
+ Versão HTML (*README V1.4*)
