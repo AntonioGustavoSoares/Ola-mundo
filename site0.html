@@ -14,6 +14,7 @@
             --cor5: whitesmoke;
             --font: Times, Verdana, serif;
             --font-principal:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            --font-decorada: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
         *{
             margin: 0px;
@@ -76,6 +77,29 @@
 
         }
 
+        aside.decorado{
+            background-color: var(--cor4);
+            outline: 5px solid var(--cor1);
+            font-family: var(--font-decorada);
+            margin: auto;
+            height: 170px;
+            
+        }
+
+        p.decorado{
+            padding: 10px;
+            text-align: justify;
+            text-decoration: dotted;
+            color: var(--cor2);
+        }
+
+        strong{
+            font-weight: bolder;
+            color: var(--cor4);
+            background-color: var(--cor1);
+
+        }
+
         div{
             background-color: var(--cor4) ;
             width: 800px;
@@ -107,6 +131,7 @@
         main abbr{
             text-decoration: none;
         }
+
 
         footer{
             color: var(--cor5);
@@ -140,6 +165,10 @@
             <iframe src="https://html5.gamemonetize.co/nzyxeod3knb7uw2b6yry1l8su588dex0/" width="700" height="400" scrolling="none" frameborder="0"></iframe>
         </div>
 
+        <aside class="decorado">
+            <h1>Texto Decorado</h1>
+            <p class="decorado">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae iure distinctio, ducimus pariatur veniam at consectetur aliquam natus eum ipsa corporis laudantium repellat deleniti architecto quidem autem cum animi quis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. <strong>Enim neque eum tempore aspernatur mollitia ad illum? Est tempore consequuntur aut maxime vitae voluptate, ratione ipsam consequatur, iure, eligendi ab! Praesentium? Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> Impedit omnis distinctio sequi eum iure hic dolorum magni consectetur enim, mollitia sit adipisci, aperiam quidem ducimus ipsam nisi. Officiis, repellat et.</p>
+        </aside>
 
     </main>
 
