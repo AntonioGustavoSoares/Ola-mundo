@@ -3,4 +3,5 @@
  
  Versão HTML (*README V1.4*)
 
- # Treino do Dia 26/03/2025
+ # Treino do Dia 27/03/2025
+# Estudo sobre Branches
